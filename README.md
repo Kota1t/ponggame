@@ -33,4 +33,5 @@ cd /path/to/your/project
 g++ -std=c++11 -Wall -O0 -g -I/path/to/SDL2/include -L/path/to/SDL2/lib main.cpp Game.cpp -lSDL2 -o pong
 
 # Run the game
-./pong
+ ./build/debug/play         
+
