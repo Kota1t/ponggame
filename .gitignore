@@ -30,3 +30,18 @@
 *.exe
 *.out
 *.app
+
+# Ignore the entire build directory (including compiled binaries and debug symbols)
+build/
+
+# Ignore any .dSYM directories (macOS debug symbols)
+*.dSYM/
+
+# (Optional) Ignore the compiled binary in the src folder, if it's not a source file
+src/main
+
+# Ignore OS-specific files
+.DS_Store
+
+.VSCode/
+.vscode/
